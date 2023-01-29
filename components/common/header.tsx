@@ -1,4 +1,5 @@
 import React from "react";
+import { HeaderDesktop, HeaderMobile } from "./header/";
 
 type Props = {
   title?: String;
@@ -6,9 +7,10 @@ type Props = {
 
 const Header = ({ title = "Header" }: Props) => {
   return (
-    <div>
-      <p>{title}</p>
-    </div>
+    <>
+      <HeaderMobile />
+      <HeaderDesktop />
+    </>
   );
 };
 

@@ -17,7 +17,7 @@ const PostListPage = ({ posts }: Props) => {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <h1>Post List Page</h1>
       <ul>
         {posts.map((item, index) => (
